@@ -1,0 +1,36 @@
+html{
+    box-sizing: content-box;
+}
+.flex-container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: lightcoral;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px;
+}
+
+.flex-item{
+    padding:5px;
+    margin: 5px;
+}
+
+.tm2,.tm3 {
+    justify-content: center;
+    align-items: flex-start
+    
+}
+
+.test {
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+}
+
+@media screen and (max-width:1200px){
+    .main-title{
+        font-size: 30px;
+    }
+}

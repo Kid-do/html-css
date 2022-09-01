@@ -1,0 +1,25 @@
+@font-face {
+    font-family: '나눔';
+    src: url(/NanumSquare-master/NanumSquare-master/NanumSquareR.ttf);
+}
+
+body{
+    background-color: wheat;
+    font-family: '나눔';
+    color: blanchedalmond;
+    font-weight: 900;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.flex-item {
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
