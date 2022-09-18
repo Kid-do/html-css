@@ -1,14 +1,4 @@
-.main-background{
-    width: 100%;
-    height: 500px;
-    background-image: url(/shoes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-attachment: fixed; */
-    /* filter: brightness(70%); */
-    padding: 1px;
-    margin: 0px;
+
 }
 
 .main-title{

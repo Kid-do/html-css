@@ -1,0 +1,102 @@
+.ani-text {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.ani-text:hover {
+  animation-name: 왔다갔다;
+  animation-duration: 1s;
+}
+
+@keyframes 왔다갔다 {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.shake-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transform: rotate(10);
+}
+
+.shake-btn:hover {
+  animation-name: 흔들버튼;
+  animation-duration: 1s;
+}
+
+@keyframes 흔들버튼 {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  33% {
+    transform: rotate(-20deg);
+  }
+
+  66% {
+    transform: rotate(20deg);
+  }
+
+  99% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.shake-plus {
+  font-size: 24px;
+  color: black;
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  margin: auto;
+  padding-bottom: auto;
+  text-align: center;
+  padding-top: auto;
+}
+
+.shake-plus:hover {
+  animation-name: bigger;
+  animation-duration: 1s;
+}
+
+@keyframes bigger {
+  25% {
+    rotate: (-45deg);
+  }
+  100% {
+    scale: 1.5;
+    rotate: (90deg);
+  }
+}
+
+.menu {
+  background-color: black;
+  width: 200px;
+  height: 800px;
+  padding: 20px;
+  float: left;
+  color: white;
+  text-align: right;
+}
+
+.menu:hover {
+  animation-name: 커지기;
+  animation-duration: 1s;
+  width: 400px;
+  text-align: center;
+}

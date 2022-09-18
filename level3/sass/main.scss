@@ -1,0 +1,57 @@
+.ul-design {
+  ul {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  ul:hover {
+    background: gray;
+    color: beige;
+  }
+
+  ul:active {
+    background-color: blue;
+    color: #eee;
+  }
+}
+
+@mixin base-alert($color, $back-color) {
+  color: $color;
+  background-color: $back-color;
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+}
+
+.green-alert {
+  @include base-alert(green, lightgreen);
+}
+
+.blue-alert {
+  @include base-alert(blue, lightblue);
+}
+
+.yellow-alert {
+  @include base-alert(yellow, lightyellow);
+}
+
+@mixin row($width) {
+  width: ($width);
+  weight: 200px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.col-6 {
+  @include row(50);
+}
+
+.col-4 {
+  @include row();
+  width: 33.33%;
+}
+
+.col-3 {
+  @include row();
+  width: 25%;
+}

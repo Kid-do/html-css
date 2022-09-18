@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  background-color: #f7f9fc;
+}
+.profile-text {
+  letter-spacing: -2px;
+}
+
+.profile-text h5 {
+  color: #6fbaf8;
+}
+
+.col-md-12 {
+  margin: 50px;
+}
